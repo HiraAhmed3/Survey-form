@@ -1,0 +1,145 @@
+main{
+    border: 1px solid grey;
+    height: 680px;
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 4px  rgb(202,207,217);
+    margin: auto;
+     }
+
+
+    @media (max-width:655px) {
+     main{   height: 500px;
+              width:500px;
+
+    }
+
+    }
+    
+    @media (max-width:912px){
+        main{
+            height: 700px;
+            width:650px;
+        }
+    }
+        
+
+    @media (max-width:698px){
+        main{
+            height: 650px;
+            width:550px;
+        }
+    }
+
+    @media (max-width:567px){
+        main{
+            height: 700px;
+            width:450px;
+        }
+    }
+    @media (max-width:414px){
+        main{
+            height: 700px;
+            width:350px;
+        }
+    
+.description{
+    font-size: 12px;
+}
+
+
+    
+
+
+    
+    }
+    @media (max-width:375px){
+        main{
+            height: 700px;
+            width:300px;
+            margin: auto;
+        }
+    
+    
+    }
+    @media (max-width:357px){
+        main{
+            height: 750px;
+            width:250px;
+        }
+        
+    }
+    
+    
+    .title{
+        text-align: center;
+    }
+    .description{
+        text-align: center;
+    }
+    input[type=text]{
+        width: 85%;
+        height: 5%;
+        margin-left: 10px;
+        margin-top: 10px;
+        padding-left:20px ;
+        border-radius: 5px;
+    }
+    input[type=email]{
+        width: 85%;
+        height: 5%;
+        margin-left: 10px;
+        margin-top: 10px;
+        padding-left:20px ;
+        border-radius: 5px;
+    }
+    input[type=number]{
+        width: 38%;
+        height: 5%;
+        margin-left: 10px;
+        margin-top: 10px;
+        padding-left:10px ;
+        border-radius: 5px;
+    }
+    input[type=password]{
+        width: 38%;
+        height: 5%;
+        margin-left: 8px;
+        margin-top: 10px;
+        padding-left:10px ;
+        border-radius: 5px;
+    }
+
+
+    input[type=date]{
+        width: 90%;
+        height: 5%;
+        margin-left: 10px;
+        padding-left:10px ;
+        border-radius: 5px;
+    }
+.upperhr{
+    width: 200px;
+}
+.birth{
+    margin-left: 10px;
+}
+.gender{
+    border: 1px solid grey;
+    width: 290px;
+    border-radius: 5px;
+    margin-left: 10px;
+    height: 25px;
+}
+.down{
+    margin-left: 10px;
+}
+button{
+    width: 120px;
+    height:50px;
+    padding:auto ;
+    margin-left: 40%;
+}
+.lastlink{
+    margin-left: 35%;
+}
